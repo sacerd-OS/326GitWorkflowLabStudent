@@ -71,3 +71,4 @@ function runTangent() {
   const v = tangent(display.value);
   display.value = v;
 }
+
