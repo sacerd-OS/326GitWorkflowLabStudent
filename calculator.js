@@ -9,11 +9,8 @@ function calculateSquare(value) {
     return value ** 2;
 }
 
-// TODO: FIX reciprocal function
-function calculateReciprocal() {
-    // Hint: Reciprocal is 1/x
-    // return the reciprocal of the value
-    
+function calculateReciprocal(value) {
+    return (1 / value);
 }
 
 // TODO: Implement natural log function
