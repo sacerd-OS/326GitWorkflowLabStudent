@@ -1,6 +1,6 @@
 
 let display = document.getElementById('display');
-
+document.addEventListener("keyup", (ev) => ev.key.match(/^[0-9]{1}$/) ? appendToDisplay(ev.key) : 0 )
 // Append number or operator to the display
 function appendToDisplay(value) {
 
@@ -48,27 +48,27 @@ function runReciprocal() {
 }
 
 // TODO: Implement run your functions here
-
-function runSin() {
-    const v = sine(display.value);
-    display.value = v;
-    
+function runNaturalLog() {
+  // Hint: Reciprocal is 1/x
+  const v = naturalLog(display.value);
+  display.value = v;
 }
 
-function runTan() {
-    const v = tangent(display.value);
-    display.value = v;
-    
+function runSine() {
+  // Hint: Reciprocal is 1/x
+  const v = sine(display.value);
+  display.value = v;
 }
 
-function runCos() {
-    const v = cosine(display.value);
-    display.value = v;
-    
+function runCosine() {
+  // Hint: Reciprocal is 1/x
+  const v = cosine(display.value);
+  display.value = v;
 }
 
-function runLog() {
-    const v = naturalLog(display.value);
-    display.value = v;
-    
+function runTangent() {
+  // Hint: Reciprocal is 1/x
+  const v = tangent(display.value);
+  display.value = v;
 }
+
