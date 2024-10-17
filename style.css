@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   font-family: monospace;
   text-align: center;
 }
@@ -34,20 +33,6 @@ body {
 button {
   width: 80px;
   height: 60px;
-=======
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
-#calculator {
-  width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 2px solid #000;
-}
-button {
-  width: 60px;
-  height: 40px;
->>>>>>> 8dc984a (move css to style.css)
   font-size: 18px;
 }
 input {
