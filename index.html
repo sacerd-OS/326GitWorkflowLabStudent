@@ -10,6 +10,7 @@
 <body>
 
 <h1>Simple JS Calculator</h1>
+<h2>Enter Number Followed By Operation To Get Result</h2>
 <div id="calculator">
     <input type="text" id="display" disabled><br><br>
     <!-- Memory display -->
@@ -18,16 +19,25 @@
     <!-- Memory buttons -->
     <button class="misc-button" onclick="memoryStore()">Store</button>
     <button class="misc-button" onclick="memoryRecall()">Recall</button>
-    <button class="misc-button" onclick="memoryClear()">Reset</button><br><br>
+    <button class="misc-button" onclick="memoryClear()">Reset</button>
+    <button class="misc-button" onclick="clearDisplay()">C</button>
+    <button class="misc-button" onclick="deleteLast()">Del</button><br><br>
     <button class="operation-button" onclick="runSquareRoot()"> sqrt()</button>
+    <button class="operation-button" onclick="runReciprocal()">reci</button>
+    
 
     <!-- Calculator buttons -->
-    <button class="misc-button" onclick="clearDisplay()">C</button>
-    <button class="misc-button" onclick="deleteLast()">Del</button>
+    
     <button class="operation-button" onclick="appendToDisplay('/')">/</button>
     <button class="operation-button" onclick="appendToDisplay('*')">*</button><br><br>
         <!-- Add your features here -->
-
+        <button class="operation-button" onclick="runSin()">sin</button>
+        <button class="operation-button" onclick="runTan()">tan</button>
+        <button class="operation-button" onclick="runCos()">cos</button>
+        <button class="operation-button" onclick="runLog()">log</button>
+        <button class="operation-button" onclick="runSquare()">sq</button>
+        
+        <br>
 
     
     <button class="number-button" onclick="appendToDisplay('7')">7</button>
