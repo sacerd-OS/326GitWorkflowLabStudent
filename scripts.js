@@ -72,3 +72,11 @@ function runTangent() {
   display.value = v;
 }
 
+let numInp = document.getElementById("numInp")
+numInp.addEventListener("input", () => {
+        let content = numInp.value;
+        console.log(Number(content) != NaN)
+        if(!isNaN(Number(content))){
+            display.value = content;
+        }
+    })
